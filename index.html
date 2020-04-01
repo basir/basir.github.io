@@ -2,58 +2,209 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
     <title>Basir JD</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="animated bounceInDown">
-    <div class="avatar">
-      <img
-        src="https://codingwithbasir.com/wp-content/uploads/2019/05/codingwithbasir-logo2.png"
-        alt="Avatar"
-      />
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <img class="header-image" src="photo.jpg" alt="photo.jpg" />
+        <h1>
+          <span class="header-title">Basir JD</span>
+          <span class="header-description">Web Developer</span>
+        </h1>
+        <div class="header-icons">
+          <a href="mailto:basir.jafarzadeh@gmail.com">
+            <i class="icon fa fa-envelope"></i>
+          </a>
+          <a href="https://twitter.com/basirjd" target="_blank">
+            <i class="icon fa fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/basir-j" target="_blank">
+            <i class="icon fa fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/basir" target="_blank">
+            <i class="icon fa fa-github-alt"></i>
+          </a>
+        </div>
+      </div>
+      <a class="down" href="#about" data-scroll="">
+        <i class="icon fa fa-chevron-down"></i>
+      </a>
+      <canvas
+        class="particles-js-canvas-el"
+        width="2530"
+        height="606"
+        style="width: 100%; height: 100%;"
+      ></canvas>
     </div>
+    <section id="about" class="content">
+      <div class="about">
+        <h1>About Me</h1>
+        <p>
+          I am a web developer who focuses on writing clean, elegant and
+          efficient code.
+        </p>
+        <p>
+          In my latest project I developed a full-functional ecommerce website
+          like Amazon. I desgined it using <strong>HTML5 & CSS3</strong>,
+          implemented frontend by <strong>React & Redux</strong> and build
+          backend using <strong>Node & MongoDB</strong>.
+        </p>
+        <div class="resume">
+          <a class="button" href="basir-jd-resume.pdf">Download Resume</a>
+        </div>
+        <p>
+          Feel free to take a look at my projects and contact me if you are
+          intersted in hiring me.
+        </p>
+      </div>
+    </section>
+    <section class="content">
+      <div class="projects">
+        <h1>Projects</h1>
+        <div class="project">
+          <h2>Project #1: An ECommerce Website</h2>
+          <img src="project1.jpg" alt="project 1" />
+          <ul>
+            <li>
+              A side project to create an ecommerce website like amazon
+            </li>
+            <li>
+              Learned web development and backend thechnologies
+            </li>
+            <li>
+              Challenges includes connecting to paypal, ...
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h2>Project #2: An Shopping Cart</h2>
+          <img src="project2.jpg" alt="project 1" />
+          <ul>
+            <li>
+              A side project to create an ecommerce website like amazon
+            </li>
+            <li>
+              Learned web development and backend thechnologies
+            </li>
+            <li>
+              Challenges includes connecting to paypal, ...
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="employments">
+        <h1>Employment</h1>
+        <div class="employments">
+          <h2>ROI Vision (Montreal)</h2>
+          <ul>
+            <li>
+              Web developer, Jan 2016 - May 2017
+            </li>
+            <li>
+              Design an web application.
+            </li>
+          </ul>
+        </div>
+        <div class="employments">
+          <h2>Eppad</h2>
+          <ul>
+            <li>
+              Web developer, Jan 2014 - December 2015
+            </li>
+            <li>
+              Design an web application.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="educations">
+        <h1>Education</h1>
+        <div class="education">
+          <h2>Masters in Software Enginnering</h2>
+          <ul>
+            <li>
+              Concordia University (Montreal), Jan 2010 - May 2014
+            </li>
+            <li>
+              In my thesis project I have made a automatic text summarization
+              system using Python.
+            </li>
+          </ul>
+        </div>
+        <div class="education">
+          <h2>Bachelor in Software Enginnering</h2>
+          <ul>
+            <li>
+              Azad University, Jan 2006 - May 2010
+            </li>
+            <li>
+              In my final project I have made a spell checker.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>
+            <strong>Frontend: </strong> HTML5, CSS, JavaScript, React, Redux
+          </li>
+          <li><strong>Backend: </strong> Node, Express, MongoDB</li>
+          <li><strong>Tools: </strong> Git, VS Code, Scrum</li>
+        </ul>
+      </div>
+    </section>
 
-    <div class="content">
-      <h1 class="title">Basir JD</h1>
-
-      <p>
-        (Programming Teacher)
-      </p>
-
-      <ul class="social-icons">
-        <li>
-          <a class="twitter" href="https://twitter/basirjd" title="Twitter"
-            >Twitter</a
-          >
-        </li>
-        <li>
-          <a
-            class="flickr"
-            href="https://youtube.com/channel/UC2xRE4hUCQ3xO3ymEtMh1Hw"
-            title="Youtube"
-            >Youtube</a
-          >
-        </li>
-      </ul>
-
-      <p>
-        Founder of CodingWithBasir<br />
-        <a href="https://codingwithbasir.com">https://codingwithbasir.com</a>
-      </p>
-
-      <p>
-        Want free programming eBooks?
-        <a href="https://codingwithbasir.com/download">Download</a>
-      </p>
-    </div>
+    <section class="content">
+      <div class="contact">
+        <h1>Contact Me</h1>
+        <ul>
+          <li>
+            <strong>EMail: </strong>
+            <a href="mailto:basir.jafarzadeh@gmail.com"
+              >basir.jafarzadeh@gmail.com</a
+            >
+          </li>
+          <li>
+            <strong>Twitter: </strong
+            ><a href="https://twitter.com/basirjd"
+              >https://twitter.com/basirjd</a
+            >
+          </li>
+          <li>
+            <strong>GitHub: </strong
+            ><a href="https://github.com/basir">https://github.com/basir</a>
+          </li>
+          <li>
+            <strong>Linkedin: </strong>
+            <a href="https://www.linkedin.com/in/basir-j"
+              >https://www.linkedin.com/in/basir-j</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>&copy;2020 Basir JD</p>
+    </footer>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="sweet-scroll.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

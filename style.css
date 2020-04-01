@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+html {
+  line-height: 1.4;
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 1.8rem;
+}
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+li {
+  margin: 1rem 0;
+}
+#particles-js {
+  background: #1a222c;
+  display: flex;
+  vertical-align: bottom;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#particles-js .particles-js-canvas-el {
+  width: 100% !important;
+  height: 100vh !important;
+}
+/**** HEADER ****/
+.header {
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.header-title {
+  font-size: 50px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+}
+
+.header-description {
+  font-size: 25px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.header-image {
+  width: 300px;
+  border-radius: 50%;
+}
+.header-links {
+  margin: 10px;
+}
+.header-links .link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.down,
+.header-icons .icon {
+  color: #fff;
+  text-align: center;
+}
+.header-icons .icon {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: all 0.7s;
+  font-size: 28px;
+  margin: 5px;
+}
+.header-icons .icon:active,
+.header-icons .icon:hover {
+  color: #1a222c;
+  background: #fff;
+}
+.down {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+}
+.down .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  animation: pulse 1.3s infinite;
+}
+.down .icon:active,
+.down .icon:hover,
+.footer a:active,
+.footer a:hover {
+  color: #4b5664;
+}
+@keyframes pulse {
+  0%,
+  to {
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+    top: 0;
+  }
+  50% {
+    filter: none;
+    opacity: 1;
+    top: -10px;
+  }
+}
+/**** About Me ****/
+.content {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px #aaaaaa solid;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+@media only screen and (min-width: 550px) {
+  .content {
+    width: 80%;
+  }
+}
+.content h1 {
+  margin: 8rem 0 4rem 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
+.resume {
+  margin: 4rem 1rem;
+}
+.button {
+  height: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid #80c0f0;
+  transition: all 0.7s;
+  font-size: 20px;
+  text-decoration: none;
+  color: #80c0f0;
+}
+.button:active,
+.button:hover {
+  color: #1a222c;
+  background: #80c0f0;
+}
+
+.skills div {
+  margin: 3rem 0;
+}
+.contact div {
+  margin: 2rem 0;
+}
+.footer {
+  text-align: center;
+}
