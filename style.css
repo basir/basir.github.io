@@ -57,7 +57,7 @@ li {
 }
 
 .header-image {
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
 }
 .header-links {
@@ -145,11 +145,15 @@ li {
   border: 1px #aaaaaa solid;
   box-shadow: 5px 5px 5px #aaaaaa;
 }
-
+section{
+  padding-bottom: 50px;
+  border-bottom: 1px #c0c0c0 solid;
+}
 .content h1 {
   margin: 8rem 0 4rem 0;
   font-size: 2.2rem;
   text-align: center;
+  text-transform: uppercase;
 }
 .content h2 {
   font-size: 2rem;
@@ -161,7 +165,9 @@ li {
   .content {
     width: 80%;
   }
+
   .content h1 {
+    text-transform: uppercase;
     font-size: 4rem;
   }
   .content h2 {
