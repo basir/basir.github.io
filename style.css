@@ -42,9 +42,9 @@ li {
 }
 
 .header-title {
-  font-size: 50px;
+  font-size: 40px;
+  line-height: 2;
   display: block;
-  line-height: 1;
   color: #fff;
 }
 
